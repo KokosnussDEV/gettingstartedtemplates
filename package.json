@@ -1,13 +1,14 @@
 {
     "name": "gettingstartedtemplates",
     "displayName": "Getting Started Templates",
-    "description": "starter",
-    "version": "0.1.0",
+    "description": "Getting Started templates for different programming languages",
+    "version": "0.1.1",
     "author": "KokosnussDEV",
     "repository": {
         "type": "git",
         "url": "https://github.com/KokosnussDEV/gettingstartedtemplates"
     },
+    "publisher": "KokosnussDEV",
     "license": "MIT",
     "engines": {
         "vscode": "^1.44.0"

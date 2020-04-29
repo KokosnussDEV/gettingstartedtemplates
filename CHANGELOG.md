@@ -7,5 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v.2.0.
 
 ## [Unreleased]
 
+## [0.1.1] - 2020-04-29
+
+### Added
+
 - HTML Starter Snippet.
 - JavaScript Console/Node.js Snippet.
+- License File
+
+### Changed
+
+- Default Readme
