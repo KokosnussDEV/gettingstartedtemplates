@@ -1,0 +1,20 @@
+{
+    "Basic HTML Snippet": {
+        "prefix": "New HTML",
+        "body": [
+            "<!DOCTYPE html>",
+            "",
+            "<html>",
+            "",
+            "\t<head>",
+            "\t\t<title>Website Starter Template</title>",
+            "\t</head>",
+            "",
+            "\t<body>",
+            "\t\t<h1>My Heading</h1>",
+            "\t</body>",
+            "",
+            "</html>"
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "Basic Node.js/Console Snippet": {
+        "prefix": "New JS Console",
+        "body": [
+            "// See https://stackoverflow.com/a/11444416 for more information about 'const' & 'let'",
+            "const ${x:x} = 2;",
+            "const ${y:y} = 3;",
+            "let ${string:string} = 'string';",
+            "",
+            "console.log(${x:x} + ${y:y}); // Should print the sum of '${x:x}' and '${y:y}' to the console",
+            "console.log(${string:string}); // Should print the value of '${string:string}' to the console",
+            "",
+            "",
+            "// If & if else statements",
+            "if ((${x:x} + ${y:y}) === 5) {",
+            "\tconsole.log(`${${x:x}} plus ${${y:y}} equals 5`);",
+            "\t// For more informations on backticks see https://developer.mozilla.org/docs/Web/JavaScript/Reference/template_strings",
+            "}",
+            "",
+            "// Try changing ${x:x} and ${y:y} to fit the if statement",
+            "if (Math.pow(${x:x}, ${y:y}) !== 8) {",
+            "\tconsole.log(`${${x:x}} to the power of ${${y:y}} is not ${${x:x} ** ${y:y}}`);",
+            "\t// You can use 'Math.pow(base, exponent)' or 'base ** exponent' (the '**' operator is faster than using Math.pow())",
+            "} else {",
+            "\tconsole.log(`${${x:x}} to the power of ${${y:y}} is ${${x:x} ** ${y:y}}`);",
+            "}"
+        ]
+    }
+}
